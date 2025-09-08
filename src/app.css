@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+.text-muted {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+.iconify {
+  @apply h-5 w-5 text-gray-500 dark:text-gray-400;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
