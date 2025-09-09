@@ -5,3 +5,13 @@
 /.react-router/
 /build/
 /.intlayer/
+
+
+# env files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+.env.development
+!.env.example
